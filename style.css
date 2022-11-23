@@ -1,0 +1,21 @@
+.b{ /* 2.3*/
+
+    width: 100%; /* 2.7*/
+    height: 100vh; /* 2.8-view wena hight eka aran denawa*/
+
+    background-image: url("background.jpg"); /* 2.4*/  /*+++++1++++*/
+    background-size: cover; /* 2.6*/
+    background-repeat: repeat-x /*9.1 baground eka witharak apahu set wena one x pathata repeet wena*/
+
+} /* 2.5*/
+
+.body{ /* 3.3*/
+    margin:0px; /* 3.4*/
+} /* 3.5*/
+
+.i{                    /* 5.2*/
+    height:250px;      /* 5.3*/
+    margin-top:390px;  /* 5.4*/
+    position: absolute; /* 5.5*/
+    
+}
