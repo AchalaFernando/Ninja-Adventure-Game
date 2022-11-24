@@ -1,21 +1,34 @@
-.b{ /* 2.3*/
+.d{                                                /*day 9-1*/
+    width: 100%;                                  /*day 9- 1*/
+    height: 100vh;                                 /*day 9- 1*/
+    background-image: url("background.png");       /*day 9- 1*/
+    background-size: cover;                        /*day 9- 1*/
+    background-repeat: repeat-x; /*14*/
 
-    width: 100%; /* 2.7*/
-    height: 100vh; /* 2.8-view wena hight eka aran denawa*/
+    overflow-x: hidden;/*17*/
+    position: absolute;/*17*/
+} 
+.body{                            /*day 9- 1*/
+    margin: 0px;                  /*day 9- 1*/
+}  /*day 9- 1*/
 
-    background-image: url("background.jpg"); /* 2.4*/  /*+++++1++++*/
-    background-size: cover; /* 2.6*/
-    background-repeat: repeat-x /*9.1 baground eka witharak apahu set wena one x pathata repeet wena*/
+.f{ /*day 9 3*/
+    height: 160px; /*day 9- 3*/
+    margin-top: 480px; /*day 9- 3*/
+    position: absolute; /*day 9- 4*/
+}
 
-} /* 2.5*/
+/*day 10-----------------*/
+.boy{                            /*2*/
+    height: 250px;                 /*2*/
+    margin-top: 365px;  /*2*/
+    position: absolute; /*badaka wadunama yane nathi wena */     /*2*/
+} /*2*/
 
-.body{ /* 3.3*/
-    margin:0px; /* 3.4*/
-} /* 3.5*/
-
-.i{                    /* 5.2*/
-    height:250px;      /* 5.3*/
-    margin-top:390px;  /* 5.4*/
-    position: absolute; /* 5.5*/
-    
+.score{  /*10*/
+    position:absolute ; /*10*/
+    margin-top: 40px; /*10*/
+    margin-left: 60px; /*10*/
+    font-size: 100px; /*10*/
+    font-weight: bold; /*10*/
 }
