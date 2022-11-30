@@ -3,10 +3,10 @@
     height: 100vh;                                 /*day 9- 1*/
     background-image: url("background.png");       /*day 9- 1*/
     background-size: cover;                        /*day 9- 1*/
-    background-repeat: repeat-x; /*14*/
+    background-repeat: repeat-x; /* day 10  14*/
 
-    overflow-x: hidden;/*17*/
-    position: absolute;/*17*/
+    overflow-x: hidden;/* day 10  17*/
+    position: absolute;/* day 10  17*/
 } 
 .body{                            /*day 9- 1*/
     margin: 0px;                  /*day 9- 1*/
@@ -14,21 +14,55 @@
 
 .f{ /*day 9 3*/
     height: 160px; /*day 9- 3*/
-    margin-top: 480px; /*day 9- 3*/
+    margin-top: 420px; /*day 9- 3*/
     position: absolute; /*day 9- 4*/
 }
 
 /*day 10-----------------*/
-.boy{                            /*2*/
-    height: 250px;                 /*2*/
-    margin-top: 365px;  /*2*/
-    position: absolute; /*badaka wadunama yane nathi wena */     /*2*/
-} /*2*/
+.boy{                            /* day 10  2*/
+    height: 250px;                 /* day 10  2*/
+    margin-top: 320px;  /* day 10  2*/
+    position: absolute; /*badaka wadunama yane nathi wena */     /* day 10  2*/
+} /* day 10  2*/
 
-.score{  /*10*/
-    position:absolute ; /*10*/
-    margin-top: 40px; /*10*/
-    margin-left: 60px; /*10*/
-    font-size: 100px; /*10*/
-    font-weight: bold; /*10*/
+.score{  /* day 10  10*/
+    position:absolute ; /* day 10  10*/
+    margin-top: 40px; /* day 10  10*/
+    margin-left: 60px; /* day 10  10*/
+    font-size: 100px; /* day 10  10*/
+    font-weight: bold; /* day 10  10*/
+}
+
+/* Day 11 - 25.11.2022 */ /* 45 */
+
+.end{ /* 45 */
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: "Arial";
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    visibility: hidden;
+
+}
+
+.btn{ /* 45 */
+    width:  400px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
 }
